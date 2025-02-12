@@ -1,0 +1,28 @@
+:root{
+
+    --cor_um: #F4F1DE;
+    --cor_dois: #E07A5F;
+    --cor_tres: #3D405B;
+    --cor_quatro: #81B29A;
+    --cor_cinco: #F2CC8F;
+    --cor_seis: #FFFFFF;
+    --tipografia: "Luckiest Guy", serif;
+}
+
+.container_carregamento{
+    
+    margin-top: 7%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_carregamento h1{
+
+    margin-top: 8%;
+
+    font-family: var(--tipografia);
+    color: var(--cor_tres);
+}

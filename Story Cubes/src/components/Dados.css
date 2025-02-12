@@ -1,0 +1,63 @@
+:root{
+
+    --cor_um: #F4F1DE;
+    --cor_dois: #E07A5F;
+    --cor_tres: #3D405B;
+    --cor_quatro: #81B29A;
+    --cor_cinco: #F2CC8F;
+    --cor_seis: #FFFFFF;
+    --tipografia: "Luckiest Guy", serif;
+}
+
+.container_dados{
+
+    width: 70%;
+    height: 60vh;
+
+    border: 1px solid var(--cor_quatro);
+    border-radius: 2vw;
+
+    font-family: var(--tipografia);
+    font-size: 20px;
+
+    color: var(--cor_seis);
+    background-color: var(--cor_quatro);
+}
+
+.container_quantia_de_dados{
+
+    display: flex;
+    align-items: center;
+
+    height: 13vh;
+
+}
+
+.container_dados h1{
+
+    padding-left: 3vw;
+}
+
+.container_quantia_de_dados button{
+
+    cursor: pointer;
+
+    width: 4.3%;
+    height: 6vh;
+
+    margin-left: 1vw;
+
+    border: 1px solid var(--cor_tres);
+    border-radius: 0.8vw;
+
+    font-family: var(--tipografia);
+    font-size: 28px;
+
+    color: var(--cor_seis);
+    background-color: var(--cor_tres);
+}
+
+.container_imagens_do_dado{
+
+    background-color: red;
+}

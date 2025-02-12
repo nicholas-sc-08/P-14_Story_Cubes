@@ -1,0 +1,20 @@
+:root{
+
+    --cor_um: #F4F1DE;
+    --cor_dois: #E07A5F;
+    --cor_tres: #3D405B;
+    --cor_quatro: #81B29A;
+    --cor_cinco: #F2CC8F;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root, body, html{
+
+    min-height: 100vh;
+}

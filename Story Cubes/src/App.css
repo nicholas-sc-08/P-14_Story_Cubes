@@ -1,0 +1,28 @@
+:root{
+
+  --cor_um: #F4F1DE;
+  --cor_dois: #E07A5F;
+  --cor_tres: #3D405B;
+  --cor_quatro: #81B29A;
+  --cor_cinco: #F2CC8F;
+}
+
+body{
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--cor_um);
+}
+
+.container_body{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo_pagina{
+
+  width: 450px;
+  height: 250px;
+}
