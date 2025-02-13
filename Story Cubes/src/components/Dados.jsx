@@ -7,10 +7,10 @@ function Dados() {
   
     const [quantidade_de_dados, set_quantidade_de_dados] = useState(`9`);
     const [palavra_botao, set_palavra_botao] = useState(`Sortear`);
-    const [numero_a_ser_verificado, set_numero_a_ser_verificado] = useState(null);
     const [aparecer_nove_dados, set_aparecer_nove_dados] = useState(true);
     const array_de_imagens = [`a`, `b`, `c`, `d`, `e`, `f`, `g`, `h`, `i`];
     const [sortear_nove_dados, set_sortear_nove_dados] = useState(false);
+    const [sortear_cinco_dados, set_sortear_cinco_dados] = useState(false);
     
     const sortear_dados = e => {
 
@@ -21,6 +21,11 @@ function Dados() {
         if(aparecer_nove_dados){
 
             set_sortear_nove_dados(true);
+            set_sortear_cinco_dados(false);
+        } else {
+
+            sortear_nove_dados(false);
+            set_sortear_cinco_dados(true);
         };
 
     };
@@ -53,7 +58,7 @@ function Dados() {
             <div className="container_imagens_do_dado">
 
             {aparecer_nove_dados && <Nove_dados array_de_imagens={array_de_imagens} sortear_nove_dados={sortear_nove_dados} set_sortear_nove_dados={set_sortear_nove_dados}/>}
-            {!aparecer_nove_dados && <Cinco_dados array_de_imagens={array_de_imagens}/>}
+            {!aparecer_nove_dados && <Cinco_dados array_de_imagens={array_de_imagens} sortear_cinco_dados={sortear_cinco_dados} set_sortear_cinco_dados={set_sortear_cinco_dados}/>}
             </div>
 
             <button type='submit'>{palavra_botao}</button>

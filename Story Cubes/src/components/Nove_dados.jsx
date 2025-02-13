@@ -37,7 +37,7 @@ function Nove_dados({array_de_imagens, sortear_nove_dados, set_sortear_nove_dado
       
                 <div className="coluna_a_dados">
 
-                    <button disabled>{array_de_imagens[v_primerio_dado] || `.`}</button>
+                    <button>{array_de_imagens[v_primerio_dado] || `.`}</button>
                     <button>{array_de_imagens[v_segundo_dado] || `.`}</button>
                     <button>{array_de_imagens[v_terceiro_dado] || `.`}</button>
                     
