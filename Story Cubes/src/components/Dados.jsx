@@ -7,33 +7,22 @@ function Dados() {
   
     const [quantidade_de_dados, set_quantidade_de_dados] = useState(`9`);
     const [palavra_botao, set_palavra_botao] = useState(`Sortear`);
-    const [indice_sorteado, set_indice_sorteado] = useState(``);
     const [numero_a_ser_verificado, set_numero_a_ser_verificado] = useState(null);
     const [aparecer_nove_dados, set_aparecer_nove_dados] = useState(true);
     const array_de_imagens = [`a`, `b`, `c`, `d`, `e`, `f`, `g`, `h`, `i`];
+    const [sortear_nove_dados, set_sortear_nove_dados] = useState(false);
     
     const sortear_dados = e => {
 
         e.preventDefault();                
 
-        set_palavra_botao(`Girar Novamente`)
+        set_palavra_botao(`Girar Novamente`);
 
-        if(quantidade_de_dados == `9`){
+        if(aparecer_nove_dados){
 
-            for(let i = 0; i < 9 ; i++){
-
-                set_indice_sorteado(Math.floor(Math.random() * 9));
-
-                if(indice_sorteado != numero_a_ser_verificado){
-
-                set_numero_a_ser_verificado(indice_sorteado);
-                console.log(`não repetiu`);       
-            } else {
-
-
-            };
+            set_sortear_nove_dados(true);
         };
-        };
+
     };
 
     useEffect(() => {
@@ -41,8 +30,10 @@ function Dados() {
         if(quantidade_de_dados == `9`){
 
             set_aparecer_nove_dados(true);
+            set_palavra_botao(`Sortear`);
         } else {
 
+            set_palavra_botao(`Sortear`);
             set_aparecer_nove_dados(false);
         }; 
 
@@ -61,8 +52,8 @@ function Dados() {
         <form onSubmit={sortear_dados}>
             <div className="container_imagens_do_dado">
 
-            {aparecer_nove_dados && <Nove_dados indice_sorteado={indice_sorteado} array_de_imagens={array_de_imagens}/>}
-            {!aparecer_nove_dados && <Cinco_dados indice_sorteado={indice_sorteado} array_de_imagens={array_de_imagens}/>}
+            {aparecer_nove_dados && <Nove_dados array_de_imagens={array_de_imagens} sortear_nove_dados={sortear_nove_dados} set_sortear_nove_dados={set_sortear_nove_dados}/>}
+            {!aparecer_nove_dados && <Cinco_dados array_de_imagens={array_de_imagens}/>}
             </div>
 
             <button type='submit'>{palavra_botao}</button>
