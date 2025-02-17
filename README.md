@@ -23,6 +23,8 @@ Como Jogar:
 
 <a href='https://p-14-story-cubes.vercel.app/'><kdb>Acessar o Story Cube's</kdb></a>
 
+<p>Você pode acessar o Figma deste projeto atrvés do link: <a href='https://www.figma.com/design/7blNlM6ynTvLi0FIlXiof7/Untitled?t=mF0ZQr0xhxSXsenO-1'>Acesse o Figma</a></p>
+
 ## <img src='https://github.com/nicholas-sc-08/P-12_Landing_page_Pets_Feliz/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Processo de instalação
 
 Com o Git instalado em seu computador, abra o prompt de commando em seu computador. Feito isso, com o caminho já escolhido aonde você deseja colocar seu projeto no explorador de arquivos, execute o seguinte commando:
