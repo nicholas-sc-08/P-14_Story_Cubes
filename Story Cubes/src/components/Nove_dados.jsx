@@ -31,6 +31,34 @@ function Nove_dados({array_de_imagens, set_sortear_nove_dados, sortear_nove_dado
 
     }, [sortear_nove_dados]);
     
+    const [v_primerio_dado, set_v_primeiro_dado] = useState(``);
+    const [v_segundo_dado, set_v_segundo_dado] = useState(``);
+    const [v_terceiro_dado, set_v_terceiro_dado] = useState(``);
+    const [v_quarto_dado, set_v_quarto_dado] = useState(``);
+    const [v_quinto_dado, set_v_quinto_dado] = useState(``);
+    const [v_sexto_dado, set_v_sexto_dado] = useState(``);
+    const [v_setimo_dado, set_v_setimo_dado] = useState(``);
+    const [v_oitavo_dado, set_v_oitavo_dado] = useState(``);
+    const [v_nono_dado, set_v_nono_dado] = useState(``);
+
+    useEffect(() => {
+
+        if(sortear_nove_dados){
+
+            set_v_primeiro_dado(Math.floor(Math.random() * 9));
+            set_v_segundo_dado(Math.floor(Math.random() * 9));
+            set_v_terceiro_dado(Math.floor(Math.random() * 9));
+            set_v_quarto_dado(Math.floor(Math.random() * 9));
+            set_v_quinto_dado(Math.floor(Math.random() * 9));
+            set_v_sexto_dado(Math.floor(Math.random() * 9));
+            set_v_setimo_dado(Math.floor(Math.random() * 9));
+            set_v_oitavo_dado(Math.floor(Math.random() * 9));
+            set_v_nono_dado(Math.floor(Math.random() * 9));
+            set_sortear_nove_dados(false);
+        };
+
+    }, [sortear_nove_dados]);
+
     return (
 
     <div className='container_nove_dados'>

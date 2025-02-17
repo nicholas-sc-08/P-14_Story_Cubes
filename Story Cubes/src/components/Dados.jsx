@@ -16,9 +16,9 @@ function Dados() {
 
         e.preventDefault();                
 
-        set_palavra_botao(`Girar Novamente`)
+        set_palavra_botao(`Girar Novamente`);
 
-        if(quantidade_de_dados == `9`){
+        if(aparecer_nove_dados){
 
             set_sortear_nove_dados(true);
             set_sortear_cinco_dados(false);
@@ -28,6 +28,7 @@ function Dados() {
             set_sortear_nove_dados(false);
             set_sortear_cinco_dados(true);
         };
+
     };
 
     useEffect(() => {
@@ -38,6 +39,7 @@ function Dados() {
             set_palavra_botao(`Girar`);
         } else {
 
+            set_palavra_botao(`Sortear`);
             set_aparecer_nove_dados(false);
         }; 
 
