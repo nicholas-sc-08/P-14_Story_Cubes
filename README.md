@@ -26,7 +26,7 @@ Como Jogar:
 Com o Git instalado em seu computador, abra o prompt de commando em seu computador. Feito isso, com o caminho já escolhido aonde você deseja colocar seu projeto no explorador de arquivos, execute o seguinte commando:
 
 ```git
-  git clone https://github.com/nicholas-sc-08/P-11_Landing_Page_Track_Vault.git
+  git clone https://github.com/nicholas-sc-08/P-14_Story_Cubes.git
 ```
 
 Caso você não possui o Git instalado em seu computador, acesse o link abaixo:
@@ -50,3 +50,5 @@ e então instale a dependência do NodeJS,
 Esta etapa não obrigatória, mas se você deseja abrir o projeto localmente, com o caminho já selecionado no prompt de commando do projeto, execute o commando de inicializar localmente:
 
 ```git
+  npm run dev
+```
