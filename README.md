@@ -4,7 +4,7 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-# P-14_Story_Cube's
+# <img src='https://github.com/nicholas-sc-08/P-14_Story_Cubes/blob/main/public/dado_carregando.gif' width='50px' height='50px'> P-14_Story_Cube's
 
 <p>Com Rory's Story Cubes, você pode se aventurar em mundos imaginários e criar narrativas a partir de imagens aleatórias12.</p>
 <p>O jogo contém nove dados, cada um com seis ícones diferentes, totalizando 12 imagens que, uma vez sorteadas, devem ser conectadas para criar uma histórias.</p>
