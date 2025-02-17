@@ -23,7 +23,7 @@
     margin-left: 37%;
 }
 
-.coluna_b_dados{
+.coluna_b_dados_c{
 
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@
     margin-right: 2%;
 }
 
-.coluna_b_dados button{
+.coluna_b_dados_c button{
 
     display: flex;
     justify-content: center;
@@ -91,7 +91,7 @@
         margin-left: 15%;
     }
     
-    .coluna_b_dados{
+    .coluna_b_dados_c{
     
         display: flex;
         flex-direction: column;

@@ -33,7 +33,7 @@ function Cinco_dados({array_de_imagens, sortear_cinco_dados, set_sortear_cinco_d
                     
         </div>
 
-        <div className="coluna_b_dados">
+        <div className="coluna_b_dados_c">
 
                 <button>{array_de_imagens[indice_quatro] || `.`}</button>
                 <button>{array_de_imagens[indice_cinco] || `.`}</button>
