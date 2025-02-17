@@ -66,3 +66,60 @@
     color: var(--cor_tres);
     background-color: var(--cor_seis);
 }
+
+
+@media screen and (min-width: 375px) and (max-width: 667px){
+
+    .coluna_a_dados{
+
+        display: flex;
+        flex-direction: column;
+    
+        width: 15vw;
+        height: 30vh;
+    
+        margin-left: 15%;
+    }
+    
+    .coluna_b_dados{
+    
+        display: flex;
+        flex-direction: column;
+    
+        width: 15vw;
+        height: 30vh;
+    
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .coluna_c_dados{
+    
+        display: flex;
+        flex-direction: column;
+    
+        width: 15vw;
+        height: 30vh;
+    }
+    
+    .container_nove_dados button{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 100%;
+        height: 100%;
+    
+        margin-top: 10%;
+        font-size: 3rem;
+        font-family: var(--tipografia);
+    
+        border-radius: 1vw;
+    
+        border: 0.1vw solid var(--cor_seis);
+    
+        color: var(--cor_tres);
+        background-color: var(--cor_seis);
+    }
+}

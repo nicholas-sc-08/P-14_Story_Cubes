@@ -76,3 +76,52 @@
     color: var(--cor_um);
     background-color: var(--cor_dois);
 }
+
+@media screen and (min-width: 375px) and (max-width: 667px){
+
+    .container_dados h1{
+
+        padding-left: 10vw;
+
+        font-size: 1.2rem;
+    }
+
+    .container_quantia_de_dados button{
+
+        cursor: pointer;
+    
+        width: 16.3%;
+        height: 4vh;
+    
+        margin-right: 11vw;
+    
+        border: 1px solid var(--cor_tres);
+        border-radius: 2vw;
+    
+        font-family: var(--tipografia);
+        font-size: 1.2rem;
+    
+        color: var(--cor_seis);
+        background-color: var(--cor_tres);
+    }
+
+    .botao_girar_dado{
+
+    width: 60%;
+    height: 6vh;
+
+    cursor: pointer;
+
+    font-size: 1rem;
+    font-family: var(--tipografia);
+
+    border: 0.1vw solid var(--cor_dois);
+    border-radius: 10vw;
+
+    margin-top: 10%;
+    margin-left: 20%;
+
+    color: var(--cor_um);
+    background-color: var(--cor_dois);
+    }
+}
