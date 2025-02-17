@@ -56,9 +56,7 @@
     background-color: var(--cor_dois);
 }
 
-@media screen
-and (min-width: 375px)
-and (max-width: 667px){
+@media screen and (min-width: 375px) and (max-width: 667px){
 
     .container_pop_up{
 

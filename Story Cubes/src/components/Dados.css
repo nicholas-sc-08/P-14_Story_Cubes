@@ -57,7 +57,22 @@
     background-color: var(--cor_tres);
 }
 
-.container_imagens_do_dado{
+.botao_girar_dado{
 
-    background-color: red;
+    width: 20%;
+    height: 6vh;
+
+    cursor: pointer;
+
+    font-size: 1.5rem;
+    font-family: var(--tipografia);
+
+    border: 0.1vw solid var(--cor_dois);
+    border-radius: 2vw;
+
+    margin-top: 3%;
+    margin-left: 40%;
+
+    color: var(--cor_um);
+    background-color: var(--cor_dois);
 }

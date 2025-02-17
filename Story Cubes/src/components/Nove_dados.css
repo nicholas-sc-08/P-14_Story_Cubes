@@ -1,0 +1,68 @@
+:root{
+
+    --cor_um: #F4F1DE;
+    --cor_dois: #E07A5F;
+    --cor_tres: #3D405B;
+    --cor_quatro: #81B29A;
+    --cor_cinco: #F2CC8F;
+    --cor_seis: #FFFFFF;
+    --tipografia: "Luckiest Guy", serif;
+}
+
+.container_nove_dados{
+
+    display: flex;
+}
+
+.coluna_a_dados{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 5vw;
+    height: 30vh;
+
+    margin-left: 37%;
+}
+
+.coluna_b_dados{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 5vw;
+    height: 30vh;
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.coluna_c_dados{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 5vw;
+    height: 30vh;
+}
+
+.container_nove_dados button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    margin-top: 10%;
+    font-size: 3rem;
+    font-family: var(--tipografia);
+
+    border-radius: 1vw;
+
+    border: 0.1vw solid var(--cor_seis);
+
+    color: var(--cor_tres);
+    background-color: var(--cor_seis);
+}
