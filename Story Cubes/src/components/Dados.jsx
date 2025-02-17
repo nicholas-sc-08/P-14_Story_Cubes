@@ -10,7 +10,7 @@ function Dados() {
     const [sortear_nove_dados, set_sortear_nove_dados] = useState(false);
     const [sortear_cinco_dados, set_sortear_cinco_dados] = useState(false);
     const [aparecer_nove_dados, set_aparecer_nove_dados] = useState(true);
-    const array_de_imagens = [`🌍`, `💀`, `😊`, `😵‍💫`, `🐾`, `🧠`, `⚔️`, `🤲`, `🤝`, `❤️`, `😱`, `🤛`, `🐫`, `🎵`, `💵`, `🦋`, `🐞`];
+    const array_de_imagens = [`🌍`, `💀`, `😊`, `😵‍💫`, `🐾`, `🧠`, `⚔️`, `🤲`, `🤝`, `❤️`, `😱`, `🤛`, `🐫`, `🎵`, `💵`, `🦋`, `🐞`, `🤑`, `👀`, `🍫`, `⚡`];
     
     const sortear_dados = e => {
 
@@ -41,8 +41,7 @@ function Dados() {
 
             set_palavra_botao(`Sortear`);
             set_aparecer_nove_dados(false);
-        }; 
-
+        };
     }, [quantidade_de_dados]);
 
     return (

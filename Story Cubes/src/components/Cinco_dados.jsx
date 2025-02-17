@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "./Nove_dados.css";
+import "./Cinco_dados.css";
 
 function Cinco_dados({array_de_imagens, sortear_cinco_dados, set_sortear_cinco_dados}) {
 
@@ -24,7 +24,7 @@ function Cinco_dados({array_de_imagens, sortear_cinco_dados, set_sortear_cinco_d
   }, [sortear_cinco_dados]);
 
   return (
-    <div>
+    <div className='container_cinco_dados'>
         <div className="coluna_a_dados">
 
             <button>{array_de_imagens[indice_um] || `.`}</button>
