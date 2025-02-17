@@ -6,7 +6,7 @@
 
 # <img src='https://github.com/nicholas-sc-08/P-14_Story_Cubes/blob/main/public/dado_carregando.gif' width='25px' height='25px'> P-14_Story_Cube's
 
-<p>Com Rory's Story Cubes, você pode se aventurar em mundos imaginários e criar narrativas a partir de imagens aleatórias12.</p>
+<p>Com o Story Cubes, você pode se aventurar em mundos imaginários e criar narrativas a partir de imagens aleatórias12.</p>
 <p>O jogo contém nove dados, cada um com seis ícones diferentes, totalizando 12 imagens que, uma vez sorteadas, devem ser conectadas para criar uma histórias.</p>
 
 <ul>
@@ -20,6 +20,8 @@ Como Jogar:
 </ul>
 
 <p>Story Cubes é utilizado para estimular a criatividade, habilidades sociais e o improviso, sendo adequado para todas as idades a partir dos 6 anos41. O jogo foi criado por Rory O'Connor e adquirido pela Asmodee em 20162. Existem diversas versões do jogo, incluindo edições temáticas2.</p>
+
+<a href='https://p-14-story-cubes.vercel.app/'><kdb>Acessar o Story Cube's</kdb></a>
 
 ## <img src='https://github.com/nicholas-sc-08/P-12_Landing_page_Pets_Feliz/blob/main/Imagens_Readme/Gif_React.gif' width='25px' height='25px'/> Processo de instalação
 
